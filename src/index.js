@@ -33,6 +33,7 @@ let genPlus = () => {
 
 let genReset = () => {
   genCount = 3;
+  roundCount = 1
   document.getElementById("energy-count").innerHTML = `${genCount}/10`;
   document.getElementById("round-count").innerHTML = `Round 1`;
 };
